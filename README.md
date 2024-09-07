@@ -36,7 +36,7 @@ Agradecemos à Alura por fornecer os conhecimentos e recursos necessários para 
 
 Acesse o TechExplorer e descubra o seu lugar no universo da tecnologia.
 
-**[Link para a aplicação]**
+**[[Link para a aplicação](https://app-tech-explorer.vercel.app/)]**
 
 ---
 
