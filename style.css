@@ -94,6 +94,7 @@ main{
 
 .container {
     transition: opacity 0.5s ease-in-out;
+    margin-bottom: 0.5rem;
   }
   
 .container.hidden {
@@ -132,7 +133,7 @@ section input {
     padding: 1rem; /* Espaçamento interno */
     border-radius: 1.5rem; /* Borda arredondada */
     margin-bottom: 1rem; /* Espaçamento abaixo dos inputs */
-    background-color: #c1fbff;
+    /* background-color: #c1fbff; */
     color: #02010c; /* Cor do texto */
     font-size: 1.2rem; /* Tamanho da fonte */
     box-sizing: border-box; /* Inclui padding e border na largura total */
@@ -206,7 +207,7 @@ section button:hover {
 
 /* Estiliza cada item de resultado */
 .item-resultado {
-    width: 100%;
+    width: 35rem;
     display: flex;
     align-items: flex-start;
     background: #FFFFFF; /* Cor de fundo dos itens */
@@ -222,6 +223,7 @@ section button:hover {
 .item-resultado h2 {
     font-size: 1.5rem; /* Tamanho da fonte */
     color: #222831; /* Cor do texto */
+    margin-top: 0.2rem;
 }
 
 /* Estiliza os links dentro dos itens de resultado */
@@ -256,7 +258,6 @@ footer {
 footer > p{
     text-align: center;
 }
-
 
 @media (max-width: 1480px){
     .container{
