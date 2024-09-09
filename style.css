@@ -181,10 +181,9 @@ section button:hover {
     width: 40rem;
     height: 30rem;
     overflow-y: auto;
-
 }
 
-.resultado-pesquisa h3{
+.resultado-pesquisa > h3.title{
     color: #ffffff; 
     line-height: 1.5rem; 
     font-weight: normal;
