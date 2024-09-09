@@ -41,12 +41,3 @@ Acesse o TechExplorer e descubra o seu lugar no universo da tecnologia.
 ---
 
 **#tech #tecnologia #carreira #desenvolvimento #programação #alura #gemini #html #css #javascript #opensource**
-
-**Observações:**
-
-* **Personalize:** Adapte este texto com informações mais específicas sobre o seu projeto, como o link para a aplicação, as tecnologias utilizadas em detalhes e os objetivos futuros.
-* **Imagens:** Adicione imagens ou GIFs para ilustrar a sua aplicação e torná-la mais visualmente atraente.
-* **Licença:** Escolha uma licença open source adequada para o seu projeto e inclua o link para o texto completo da licença.
-* **README.md:** Salve este texto em um arquivo chamado README.md na raiz do seu repositório para que ele seja exibido automaticamente no GitHub.
-
-Com este README.md bem estruturado, você estará pronto para compartilhar o seu projeto com a comunidade e atrair novos colaboradores.
