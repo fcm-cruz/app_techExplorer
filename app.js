@@ -28,18 +28,22 @@ pesquisa.addEventListener('click', () =>{
     }else {
         let resultado = ""
 
-        /* Busca por atletas cujo nome, descrição, tags ou esporte contenham o termo pesquisado
-            A pesquisa é feita de forma case-insensitive (ignorando maiúsculas e minúsculas)*/
+        /*A pesquisa é feita de forma case-insensitive (ignorando maiúsculas e minúsculas)*/
         for(let carreira of dados){
             if( carreira.titulo.toLowerCase().includes(fieldSearch.toLowerCase())|| carreira.descricao.toLowerCase().includes(fieldSearch.toLowerCase())){
                 resultado +=`
                 <div class="item-resultado">
                     <div class="container-imagem-carreira">
-                        <img src="${carreira.image}" alt="${carreira.descricaoImagem}" class="image-atleta" />
+                     <!--<img src="${carreira.image}" alt="${carreira.descricaoImagem}" class="image-atleta" />-->
                     </div>
                     <div class="container-descricao-carreira">
-                        <h2><a href=${carreira.link}  target="_blank"class="">${carreira.nomecarreira}</a></h2>
+                        <h2><a href=${carreira.link} target="_blank"class="">${carreira.titulo}</a></h2>
+                        <h3>Descrição da área</h3>
                         <p class="">${carreira.descricao}</p>
+                        <h3>Tempo mínimo de formação</h3>
+                        <p class="">${carreira.tempoFormacao}</p>
+                        <h3>Demanda de mercado</h3>
+                        <p class="">${carreira.demandaMercado}</p>
                         <a href="${carreira.link}" target="_blank">Saiba Mais</a>
                     </div>
                 </div>
