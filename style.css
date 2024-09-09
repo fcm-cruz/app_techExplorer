@@ -12,14 +12,15 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
+    justify-content:flex-start;
     height: 100vh;
     padding: 0;
-    margin: 0;
+    margin-top: 3rem;
+    width: 100vw;
 }
 
 .container{
-    width: 50vw;
+    width: 100vw;
 }
 
 header h1 {
@@ -58,14 +59,14 @@ header p{
 }
 
 .search-container {
-    width: 40vw;
+    width: 60vw;
     background-color: #ffffff;
     display: flex;
     align-items: center;
     justify-content:space-between;
     border-radius: 10rem;
     padding: 0.3rem;
-    margin-top: 2rem;
+    margin-top: 0;
 }
 
 input[type="text"] {
@@ -90,23 +91,6 @@ main{
     align-items: center;
     justify-content: center;
     width: 80rem;
-}
-
-.container {
-    transition: opacity 0.5s ease-in-out;
-    margin-bottom: 0.5rem;
-  }
-  
-.container.hidden {
-opacity: 0;
-}
-
-.container-card{
-    width: 20rem;
-    background-color: #ffffff;
-    padding: 0.8rem;
-    margin: 0.5rem;
-    border-radius: 0.8rem;   
 }
 
 /* Estiliza os títulos h1 */
@@ -167,16 +151,6 @@ section button:hover {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Adiciona uma sombra mais intensa */
 }
 
-/* Estiliza a caixa de resultados da pesquisa */
-.resultados-pesquisa {
-    width: 60rem; /* Largura máxima da caixa de resultados */
-    height: 60vh; /* Altura máxima da caixa de resultados */
-    overflow-y: auto; /* Adiciona rolagem vertical se necessário */
-    margin-top: 1rem; /* Espaçamento acima da caixa de resultados */
-    padding: 1rem; /* Espaçamento interno */
-    border-radius: 0.6rem; /* Borda arredondada */
-}
-
 .container-intro h2{
     text-align: center;
     font-size: 1.8rem;
@@ -205,6 +179,13 @@ section button:hover {
     border-radius: 0.8rem;
 }
 
+.resultado-pesquisa{
+    width: 40rem;
+    height: 30rem;
+    overflow-y: auto;
+
+}
+
 /* Estiliza cada item de resultado */
 .item-resultado {
     width: 35rem;
@@ -216,7 +197,6 @@ section button:hover {
     padding: 1rem; /* Espaçamento interno */
     margin-bottom: 1rem; /* Espaçamento abaixo dos itens */
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Sombra leve */
-    overflow-y: auto;
 }
 
 /* Estiliza os títulos dentro dos itens de resultado */
@@ -261,7 +241,8 @@ footer > p{
 
 @media (max-width: 1480px){
     .container{
-        width: 50vw;
+        width: 80vw;
+        margin-bottom: 1rem;
     }
 }
 
@@ -272,7 +253,7 @@ footer > p{
     }
 
     .search-container {
-        width: 80vw;
+        width: 100vw;
         background-color: #ffffff;
         display: flex;
         align-items: center;
@@ -292,7 +273,7 @@ footer > p{
         padding: 0.8rem; /* Espaçamento interno em telas menores */
     }
 
-    .resultados-pesquisa {
+    .resultado-pesquisa {
         width: 40rem; /* Largura da caixa de resultados em telas menores */
         height: 40vh; /* Altura da caixa de resultados em telas menores */
     }
